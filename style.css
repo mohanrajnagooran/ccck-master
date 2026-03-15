@@ -74,7 +74,7 @@ lum-root {
 /* HERO SECTION */
 .hero {
   background:
-    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)),
     url("images/homescreen.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -102,7 +102,7 @@ lum-root {
 }
 .hero-content h2 span {
   display: block;
-  color: #f1f1f1;
+  color: white;
 }
 .Appointment {
   display: flex;
@@ -121,7 +121,7 @@ lum-root {
 .description {
   font-size: 18px;
   padding-top: 20px;
-  color: #f5f5f5;
+  color: white;
   max-width: 600px;
 }
 /* FEATURES */
