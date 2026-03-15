@@ -60,6 +60,9 @@ lum-root {
 }
 /* RESPONSIVE */
 @media (max-width: 640px) {
+  .stats-three {
+    padding-top: 80px;
+  }
   .logo {
     height: 68px;
   }
@@ -270,6 +273,9 @@ lum-root {
 }
 /* RESPONSIVE */
 @media (min-width: 600px) {
+  .stats-three {
+    padding-top: 120px;
+  }
   .badge {
     margin-top: 140px;
   }
