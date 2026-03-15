@@ -81,7 +81,7 @@ lum-root {
   background-size: cover;
   background-position-y: bottom 32px;
   background-position: left;
-  padding: 10px 6%;
+  padding: 10px 10%;
 }
 
 .hero-grid {
@@ -153,6 +153,7 @@ lum-root {
   display: flex;
   gap: 40px;
   flex-wrap: wrap;
+  margin-top: 14px;
   text-align: center;
   justify-content: space-evenly;
 }
@@ -247,6 +248,9 @@ lum-root {
   text-decoration: none;
 }
 @media (max-width: 600px) {
+  .hero {
+    padding: 10px 2%;
+  }
   .hero-content {
     padding-top: 120px;
   }
