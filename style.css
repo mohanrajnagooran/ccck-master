@@ -81,7 +81,7 @@ lum-root {
   background-size: cover;
   background-position-y: bottom 32px;
   background-position: left;
-  padding: 5px 6%;
+  padding: 10px 6%;
 }
 
 .hero-grid {
@@ -89,6 +89,9 @@ lum-root {
   margin: auto;
   display: grid;
   gap: 14px;
+}
+.hero-content {
+  margin-top: -90px;
 }
 /* LEFT CONTENT */
 .hero-content h2 {
@@ -149,7 +152,6 @@ lum-root {
 .stats-three {
   display: flex;
   gap: 40px;
-  margin-top: -60px;
   flex-wrap: wrap;
   text-align: center;
   justify-content: space-evenly;
@@ -244,9 +246,13 @@ lum-root {
   margin-top: 10px;
   text-decoration: none;
 }
-@media (max-width: 480px) {
+@media (max-width: 600px) {
+  .hero-content {
+    padding-top: 120px;
+  }
   .stats-three {
-    padding-top: 80px;
+    padding-top: 20px;
+    gap: 10px;
   }
   .Appointment {
     display: grid;
@@ -320,7 +326,7 @@ lum-root {
   box-shadow: 0 25px 45px rgba(37, 99, 235, 0.6);
 }
 /* MOBILE */
-@media (max-width: 480px) {
+@media (max-width: 550px) {
   .floating-book-btn {
     right: 16px;
     bottom: 16px;
